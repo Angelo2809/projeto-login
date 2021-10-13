@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    width: 100vw;
+    background-color: black;
+    background-image: url(pexels-pixabay-273935.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1{
+    margin-top: 140px;
+    color: white;
+    font-size: 80px;
+}
+
+form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs{
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: rgb(255, 187, 0);
+    border-style: solid;
+    padding: 5px;
+
+}
+#btn-enviar{
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+p,a{
+    font-size: 24px;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+
+#btn-enviar:hover{
+    transform: scale(1.10);
+}
+
+.msg-erro{
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+}
+
+#areaAcessada{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 200px;
+    color: white;
+}
